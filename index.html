@@ -21,7 +21,12 @@
     <title>Portfolio2</title>
   </head>
   <body>
+    <!-- Dark Theme -->
+    <input type="checkbox" id="darkMode" class="dark-mode-checkbox" />
     <div class="wrapper">
+      <label for="darkMode"
+        ><i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i
+      ></label>
       <!-- Navbar section -->
       <header class="primaryheader flex">
         <div class="logo flex">
@@ -33,6 +38,10 @@
           </div>
         </div>
         <div class="right">
+          <input type="checkbox" id="check" />
+          <label for="check" class="menu-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
           <ul class="navlists flex">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -234,6 +243,12 @@
           </div>
         </div>
       </footer>
+
+      <div class="scroll-to-top">
+        <a href="#" class="scroll-btn"
+          ><i class="fa-sharp fa-solid fa-arrow-up"></i
+        ></a>
+      </div>
     </div>
   </body>
 </html>
